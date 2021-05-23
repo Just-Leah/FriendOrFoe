@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "friendorfoe",
+  "version": "1.0.0",
+  "name": "Friend Or Foe",
+  "description": "Fight against Minecraft mobs in an RPG turn-based style. Decide whether they are Friend Or Foe. Inspired by Undertale",
+  "authors": [
+    "Stonewall0210"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.stonewall0210.friendorfoe.FriendOrFoe"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.1",
+    "fabric": "*",
+    "minecraft": "1.16.4",
+    "plasmid": "0.4.x"
+  }
+}
